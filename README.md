@@ -4,7 +4,7 @@ Flag students at risk from dropping out of the program using predictive analytic
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Student dropout, graduation, and continued enrollment represent significant educational outcomes that impact both individual futures and societal well-being. This project focuses on predicting whether students will **drop out** or **graduate**, allowing institutions to proactively support at-risk students.
 
@@ -12,7 +12,7 @@ We analyzed a dataset of **4424 records** with **35 demographic, academic, and s
 
 ---
 
-## 📊 Features
+## Features
 
 - **Demographic**: age, gender, nationality, marital status, parental education, parental occupation  
 - **Academic**: course, GPA, curricular units enrolled/approved, attendance type  
@@ -21,7 +21,7 @@ We analyzed a dataset of **4424 records** with **35 demographic, academic, and s
 
 ---
 
-## 🛠️ Methods
+## Methods
 
 - **EDA**: Visual and statistical exploration of categorical and numerical features  
 - **Feature Engineering**: Aggregated academic performance features, removed low-impact features  
@@ -30,7 +30,7 @@ We analyzed a dataset of **4424 records** with **35 demographic, academic, and s
 
 ---
 
-## 🔑 Key Results
+## Key Results
 
 - Final model (Voting Classifier with top 16 features):  
   - Balanced Accuracy: **0.93**  
@@ -51,7 +51,7 @@ We analyzed a dataset of **4424 records** with **35 demographic, academic, and s
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Load the dataset (`dataset.csv`)  
 2. Run the notebook (`Group13_Student Dropout_first_draft.ipynb`)  
@@ -59,21 +59,13 @@ We analyzed a dataset of **4424 records** with **35 demographic, academic, and s
 
 ---
 
-## 🏆 Conclusion
+## Conclusion
 
 This model helps educational institutions identify students most at risk based on academic, financial, and demographic factors — enabling early intervention to reduce dropout rates.  
 
 ---
 
-## 🤝 Contributors
-
-- **Balram Iyengar** – Model design, simulations, feature importance  
-- **Maneesh Rao** – EDA, preprocessing, XGBoost tuning  
-- **Dhanush** – Feature selection, visualization, simulation analysis  
-
----
-
-## 📚 References
+## References
 
 - [Scikit-learn RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)  
 - [XGBoost Documentation](https://xgboost.readthedocs.io/en/latest/python/python_api.html)  
